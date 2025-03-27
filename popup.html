@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Filter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-class">
+        <img src="icons/logo.svg" class="logo" alt="None" />
+        <h1>Moodify</h1>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/meetsuthar27" target="_blank">
+          <i class="fa fa-github" style="font-size: 1.6rem"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/meet-suthar-03126a257/"
+          target="_blank"
+        >
+          <i class="fa fa-linkedin-square" style="font-size: 1.6rem"></i>
+        </a>
+      </div>
+    </header>
+
+    <div class="main-section">
+      <div class="main-sub-section">
+        <h2>Choose a Filter</h2>
+
+        <div class="filters to-be-hidden">
+          <button class="filter-btn" id="none" title="No Filter">
+            <img src="icons/none.svg" class="btn-icon" alt="None" />
+          </button>
+          <button class="filter-btn" id="sepia" title="Sepia">
+            <img src="icons/moon.svg" class="btn-icon" alt="Sepia" />
+          </button>
+          <button class="filter-btn" id="monochrome" title="Monochrome">
+            <img src="icons/mooncloud.svg" class="btn-icon" alt="Monochrome" />
+          </button>
+          <button class="filter-btn" id="invert" title="Invert">
+            <img src="icons/brush.svg" class="btn-icon" alt="Invert" />
+          </button>
+          <button class="dropdown-btn" id="expand">
+            <img src="icons/dropdown.svg" class="btn-icon" alt="More Filters" />
+          </button>
+        </div>
+
+        <div class="more-filters hidden">
+          <div class="filter-btn-container">
+            <button class="filter-container" id="none" title="No Filter">
+              <img src="icons/none.svg" class="btn-icon" alt="None" />None
+            </button>
+            <button class="filter-container" id="sepia" title="Sepia">
+              <img src="icons/moon.svg" class="btn-icon" alt="Sepia" />Sepia
+            </button>
+            <button class="filter-container" id="monochrome" title="Monochrome">
+              <img
+                src="icons/mooncloud.svg"
+                class="btn-icon"
+                alt="Monochrome"
+              />Monochrome
+            </button>
+            <button class="filter-container" id="invert" title="Invert">
+              <img src="icons/brush.svg" class="btn-icon" alt="Invert" />Invert
+            </button>
+            <button class="filter-container" id="paper" title="Paper">
+              <img src="icons/paper.svg" class="btn-icon" alt="Paper" />Paper
+            </button>
+            <button class="filter-container" id="dimmed" title="dimmed1">
+              <img
+                src="icons/dimmed1.svg"
+                class="btn-icon"
+                alt="dimmed1"
+              />Vintage
+            </button>
+            <button class="filter-container" id="dimmed2" title="dimmed2">
+              <img
+                src="icons/dimmed1.svg"
+                class="btn-icon"
+                alt="dimmed2"
+              />Vintage
+            </button>
+            <button class="filter-container" id="dimmed3" title="dimmed3">
+              <img
+                src="icons/dimmed1.svg"
+                class="btn-icon"
+                alt="dimmed3"
+              />Vintage
+            </button>
+            <button class="filter-container" id="vintage" title="Vintage">
+              <img
+                src="icons/vintage.svg"
+                class="btn-icon"
+                alt="Vintage"
+              />Vintage
+            </button>
+            <button class="filter-container" id="noir" title="Noir">
+              <img src="icons/noir.svg" class="btn-icon" alt="Noir" />Noir
+            </button>
+            <button class="filter-container" id="cyberpunk" title="Cyberpunk">
+              <img
+                src="icons/cyberpunk.svg"
+                class="btn-icon"
+                alt="Cyberpunk"
+              />Cyberpunk
+            </button>
+            <button class="filter-container" id="warmglow" title="Warm Glow">
+              <img
+                src="icons/warmglow.svg"
+                class="btn-icon"
+                alt="Warm Glow"
+              />Warm Glow
+            </button>
+            <button class="filter-container" id="coldsteel" title="Cold Steel">
+              <img
+                src="icons/coldsteel.svg"
+                class="btn-icon"
+                alt="Cold Steel"
+              />Cold Steel
+            </button>
+            <button class="filter-container" id="filmgrain" title="Film Grain">
+              <img
+                src="icons/filmgrain.svg"
+                class="btn-icon"
+                alt="Film Grain"
+              />Film Grain
+            </button>
+            <button
+              class="filter-container"
+              id="dreamypastel"
+              title="Dreamy Pastel"
+            >
+              <img
+                src="icons/dreamypastel.svg"
+                class="btn-icon"
+                alt="Dreamy Pastel"
+              />Dreamy Pastel
+            </button>
+            <button class="filter-container" id="deepnight" title="Deep Night">
+              <img
+                src="icons/deepnight.svg"
+                class="btn-icon"
+                alt="Deep Night"
+              />Deep Night
+            </button>
+            <button class="filter-container" id="sunset" title="Sunset">
+              <img src="icons/sunset.svg" class="btn-icon" alt="Sunset" />Sunset
+            </button>
+
+            <button
+              class="filter-container custom-btn"
+              id="custom"
+              title="Custom"
+            >
+              <img src="icons/brush.svg" class="btn-icon" alt="Custom" />Custom
+            </button>
+          </div>
+          <div class="custom-selector hidden">
+            <h3>Custom Filters</h3>
+            <div>
+              <label>Brightness</label>
+              <input
+                type="range"
+                id="brightness"
+                min="0"
+                max="200"
+                value="100"
+              />
+              <label>Contrast</label>
+              <input type="range" id="contrast" min="0" max="200" value="100" />
+              <label>Saturation</label>
+              <input
+                type="range"
+                id="saturation"
+                min="0"
+                max="200"
+                value="100"
+              />
+              <label>Hue</label>
+              <input type="range" id="hue" min="0" max="180" value="0" />
+            </div>
+            <div>
+              <button class="apply-btn" id="apply" title="Apply">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ by <strong>Meet Suthar</strong></p>
+    </footer>
+    <script src="popup.js"></script>
+    <script src="condition.js"></script>
+  </body>
+</html>
