@@ -129,9 +129,15 @@ h1 {
 .dropdown-btn {
   cursor: pointer;
   transition: background 0.5s;
-  background: #ececec;
+  background: rgb(255, 240, 197);
+  background: linear-gradient(
+    24deg,
+    rgba(255, 240, 197, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 240, 197, 1) 100%
+  );
   padding: 0.7rem;
-  border: solid 2px #d1d1d1;
+  border: solid 2px #fff0c5;
   border-radius: 20%;
   margin: 0.2em;
 }
@@ -144,7 +150,12 @@ h1 {
 
 .filter-btn:hover,
 .dropdown-btn:hover {
-  background: #ffbb01;
+  background: rgb(233, 79, 87);
+  background: linear-gradient(
+    45deg,
+    rgba(233, 79, 87, 1) 0%,
+    rgba(255, 187, 1, 1) 84%
+  );
   border: solid 2px #e94f57;
 }
 
@@ -165,14 +176,15 @@ input[type="range"] {
 } */
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #ffbb01;
+  color: #e94f57;
   text-align: center;
   padding: 10px;
-  font-size: 14px;
+  font-size: 15px;
   position: sticky;
   bottom: 0%;
   width: 100%;
+  border-radius: 1.2em 1.2em 0 0;
 }
 
 footer a {
