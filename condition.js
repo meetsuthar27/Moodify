@@ -10,12 +10,22 @@ document.addEventListener("DOMContentLoaded", () => {
   let isExpanded = false;
   let isCustomOn = false;
 
+  document.querySelectorAll(".filter-container").forEach((button) => {
+    button.addEventListener("click", () => {
+      document
+        .querySelectorAll(".filter-container")
+        .forEach((btn) => btn.classList.remove("filter-active"));
+
+      button.classList.add("filter-active");
+    });
+  });
+
   dropdownBtn.addEventListener("click", () => {
     if (!isExpanded) {
       expandedFilters.classList.remove("hidden");
       toBeHidden.classList.add("hidden");
-      document.body.style.height = "600px"; // Adjust this value based on your popup max size
       document.body.style.width = "800px"; // Adjust this value based on your popup max size
+      document.body.style.height = "auto";
     } else {
       expandedFilters.classList.add("hidden");
       toBeHidden.classList.remove("hidden");

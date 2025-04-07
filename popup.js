@@ -90,9 +90,6 @@ function applyFilter(filterValue) {
     noir: "grayscale(100%) contrast(120%) brightness(90%)",
     cyberpunk:
       "hue-rotate(280deg) contrast(120%) saturate(200%) brightness(90%)",
-    warmglow: "sepia(20%) brightness(110%) contrast(105%) saturate(120%)",
-    coldsteel:
-      "hue-rotate(220deg) contrast(90%) brightness(110%) saturate(80%)",
     filmgrain: "grayscale(30%) contrast(110%) brightness(90%)",
     dreamypastel:
       "saturate(150%) brightness(120%) contrast(80%) hue-rotate(20deg)",
