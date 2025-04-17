@@ -22,10 +22,10 @@ This project was built as a way to explore Chrome Extension development using **
 > Add these screenshots after uploading to your repo, e.g., `./screenshots/popup-basic.png`
 
 ### Compact Popup View
-![Compact View](./screenshots/popup-basic.png)
+![Compact View](`/Users/meetyashvantbhaisuthar/Desktop/Screenshot 2025-04-12 at 11.47.41 PM.png`)
 
 ### Expanded Filter View
-![Expanded View](./screenshots/popup-expanded.png)
+![Expanded View](`/Users/meetyashvantbhaisuthar/Desktop/Screenshot 2025-04-12 at 11.47.41 PM.png`)
 
 ---
 
