@@ -19,13 +19,11 @@ This project was built as a way to explore Chrome Extension development using **
 
 ##  Screenshots
 
-> Add these screenshots after uploading to your repo, e.g., `./screenshots/popup-basic.png`
-
 ### Compact Popup View
-![Compact View](`/Users/meetyashvantbhaisuthar/Desktop/Screenshot 2025-04-12 at 11.47.41 PM.png`)
+<img width="399" alt="Screenshot 2025-04-12 at 11 47 41 PM" src="https://github.com/user-attachments/assets/039ed400-9165-4119-ab5b-a072a72191e2" />
 
 ### Expanded Filter View
-![Expanded View](`/Users/meetyashvantbhaisuthar/Desktop/Screenshot 2025-04-12 at 11.47.41 PM.png`)
+<img width="798" alt="Screenshot 2025-04-12 at 11 47 55 PM" src="https://github.com/user-attachments/assets/e12f7e7a-1262-4bc1-9d90-262760254fb4" />
 
 ---
 
