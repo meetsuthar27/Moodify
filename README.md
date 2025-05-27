@@ -34,7 +34,7 @@ Since this extension is not yet published on the Chrome Web Store, here's how yo
 ### 1. Clone or Download this Repository
 
 ```bash
-git clone https://github.com/your-username/moodify-extension.git
+git clone https://github.com/meetsuthar27/Moodify.git
 ```
 
 ### 2. Open Chrome and navigate to:
