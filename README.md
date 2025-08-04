@@ -60,6 +60,8 @@ Click the icon to choose a filter and watch your browsing experience transform b
   - Hue rotation
   - Saturation
   - Contrast
+ 
+![GIF](https://drive.google.com/file/d/1gaAtWDYf09aB-T2Su-wXhcGWT8qcqv4F/view?usp=sharing)
 
 ##  Future Improvements
 
